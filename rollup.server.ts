@@ -48,7 +48,8 @@ export default <RollupOptions> {
 
 		nodeResolve({
 			extensions: extensions,
-			exportConditions: ['node']
+//XXX appears to break SSR when errorBoundary is used
+//			exportConditions: ['node']
 		}),
 
 		alias({
@@ -57,8 +58,8 @@ export default <RollupOptions> {
 	], 
 	output: {
 		dir: 'dist',
-		format: 'es',  
-//		format: 'cjs',  
+//		format: 'es',  
+		format: 'cjs',  
 		sourcemap: 'inline',
 	}
 }
