@@ -57,8 +57,8 @@ export default <RollupOptions> {
 	], 
 	output: {
 		dir: 'dist',
-//		format: 'es',  
-		format: 'cjs',  
+		format: 'es',  
+//		format: 'cjs',  
 		sourcemap: 'inline',
 	}
 }

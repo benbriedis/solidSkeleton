@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "author": "Ben Briedis",
-  "typeXXX": "module",
+  "type": "module",
   "cjsXXX": {
     "path": true
   },
